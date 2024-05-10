@@ -23,7 +23,7 @@ uint32_t addr=FLASH_USER_START_ADDR;
 	FlashSet.TypeErase = FLASH_TYPEERASE_PAGES;
 	
 	/*擦除地址*/
-	//FlashSet.Page = FLASH_USER_START_ADDR;1
+	//FlashSet.Page = FLASH_USER_START_ADDR;//测试
 	
 	/*擦除页数*/
 	FlashSet.NbPages = (FLASH_USER_END_ADDR - FLASH_USER_START_ADDR)/FLASH_PAGE_SIZE;
